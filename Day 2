@@ -1,0 +1,72 @@
+#include<iostream>
+#include<conio.h>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+	int i=1,sum=0,n;
+//	int ch;
+     cout<<"Enter n th no: ";
+     cin>>n;
+//     cout<<pow(n,4);
+     cout<<sqrt(n);
+//     for(i=1;i<=n;i++){
+//     	sum = sum + pow(i,2);
+//	 }
+//     cout<<sum;
+     
+//	for(i=1;i<=n;i++)
+//	{
+//		if(i==n){
+//			cout<<i;
+//		}
+//		else{
+//			cout<<i<<" + ";
+//		}
+//		
+//		sum = sum + i;
+//	}
+//	cout<<" = "<<sum;
+//	 1+2+3+4 = 10
+
+
+
+//	 do
+//	 {
+//	 	system("cls");
+//	cout<<"****** Menu ********"<<endl;
+//	cout<<"1. Start crome"<<endl;
+//	cout<<"2. Start notepad"<<endl;
+//	cout<<"3. Start cmd"<<endl;
+//	cout<<"4. Start youtube"<<endl;
+//	cout<<"5. Exit"<<endl;
+//	cout<<"Enter your choice : ";
+//	cin>>ch;
+//	
+//	if(ch==1){
+//		system("start chrome");
+//	}
+//	else if(ch==2){
+//		system("start notepad");
+//	}
+//	else if(ch==3){
+//		system("start cmd");
+//	}
+//		system("start https:
+//	else if(ch==4){//youtube.com");
+//	}
+//	else if(ch==5){
+//		break;
+//	}
+//	else{
+//		cout<<" Wrong choice...\n please try again";
+//		getch();
+//	}
+//	 }while(ch !=5);
+	 
+	 
+	// for loop  -- entry control loop
+	// while loop -- entry control loop
+	// do-while loop  -- exit control loop
+}
