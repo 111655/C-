@@ -193,7 +193,7 @@ void stickwomen_chat(int speed,int box_color,int text_color)
    setcolor(text_color);
     settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
 	outtextxy(45+s,210,"Sorry, I love");
-	outtextxy(100+s,240,"Rahul");
+	outtextxy(50+s,240,"Someone");
 	
 }
 // road
@@ -262,11 +262,14 @@ void rose_fall(int speed,int height_speed)
 void subscribe()
 {
 	setcolor(LIGHTGREEN);
-	settextstyle(EUROPEAN_FONT,HORIZ_DIR,5);
-	outtextxy(50,150,"THIS SMALL STORY CREATED BY ARVIND");
-	settextstyle(EUROPEAN_FONT,HORIZ_DIR,4);
+	settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
+	outtextxy(5,150,"First time I understood pixels. GUIs. How software comes alive");
+	settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
 	setcolor(LIGHTBLUE);
-	outtextxy(100,230,"AND THIS STORY FULLY BELONG TO MY FRIEND RAHUL LIFE");
+	outtextxy(50,200,"That moment changed my entire trajectory:");
+	settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
+	setcolor(LIGHTBLUE);
+	outtextxy(50,250,"Console -> Graphics -> Curiosity -> Full Stack");
 }
 // driver program
 int main()
@@ -281,6 +284,9 @@ int main()
 	int rf=0;
 	while(n<=420)
 	{
+		setcolor(LIGHTGREEN);
+		settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
+		outtextxy(220,10,"STORY IN CAPTION -> ->");
 		setactivepage(page);
 		setvisualpage(1-page);
 		cleardevice();
