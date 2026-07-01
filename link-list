@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+class Node {
+public:
+    int data;
+    Node* next;
+};
+
+int main() {
+    Node *head = NULL, *temp, *newNode;
+
+    // First node
+    newNode = new Node();
+    newNode->data = 10;
+    newNode->next = NULL;
+    head = temp = newNode;
+
+    // Second node
+    newNode = new Node();
+    newNode->data = 20;
+    newNode->next = NULL;
+    temp->next = newNode;
+    temp = newNode;
+
+    // Third node
+    newNode = new Node();
+    newNode->data = 30;
+    newNode->next = NULL;
+    temp->next = newNode;
+
+    // Display
+    temp = head;
+    while (temp != NULL) {
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+
+    return 0;
+}
