@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+// Class definition
+class Student
+{
+public:
+    string name;
+    int age;
+
+    // Member function
+    void display()
+    {
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+    }
+};
+
+int main()
+{
+    // Object creation
+    Student s1;
+
+    // Assign values
+    s1.name = "Arvind";
+    s1.age = 20;
+
+    // Call member function
+    s1.display();
+
+    return 0;
+}
