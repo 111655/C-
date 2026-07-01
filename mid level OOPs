@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std;
+
+class Student
+{
+private:
+    int rollNo;
+    string name;
+    float marks;
+
+public:
+    // Constructor
+    Student(int r, string n, float m)
+    {
+        rollNo = r;
+        name = n;
+        marks = m;
+    }
+
+    // Display function
+    void display()
+    {
+        cout << "Roll No : " << rollNo << endl;
+        cout << "Name    : " << name << endl;
+        cout << "Marks   : " << marks << endl;
+    }
+
+    // Grade function
+    void grade()
+    {
+        if (marks >= 90)
+            cout << "Grade : A" << endl;
+        else if (marks >= 75)
+            cout << "Grade : B" << endl;
+        else if (marks >= 60)
+            cout << "Grade : C" << endl;
+        else
+            cout << "Grade : Fail" << endl;
+    }
+};
+
+int main()
+{
+    // Creating objects
+    Student s1(101, "Arvind", 88);
+    Student s2(102, "Rahul", 56);
+
+    cout << "Student 1 Details" << endl;
+    s1.display();
+    s1.grade();
+
+    cout << "\nStudent 2 Details" << endl;
+    s2.display();
+    s2.grade();
+
+    return 0;
+}
